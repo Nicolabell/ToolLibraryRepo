@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/techblah/ToolLibrary
+    - /bin/cp -R images $DEPLOYPATH/images
